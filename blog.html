@@ -1,0 +1,62 @@
+---
+layout: page
+title: "Blog Posts"
+permalink: /blog/
+---
+
+<section class="page-heading blog">
+    <div class="container">
+      <h1>Blog</h1>
+    </div>
+  </section>
+
+  <section class="page-blog">
+    <div class="container">
+      <div class="column-left">
+      {% for post in site.posts %}
+        <article class="post">
+          <h2><a href="{{ post.url }}"> {{ post.title }}</a></h2>
+          <div class="published">
+            Published / {{ post.date | date_to_string }}
+          </div>
+          <div class="border-line blue"></div>
+          <div class="text">
+            {{ post.excerpt }}
+          </div>
+          <!-- <a href="" class="comments">25 Comments</a> -->
+        </article>
+      {% endfor %}
+      </div>
+      <!-- <div class="column-right">
+        <h2>Recent Posts</h2>
+        <div class="border-line blue"></div>
+        <ul>
+          <li>
+            <a href="">Panel discussion on "Python in education"</a>
+            <div class="published">
+              Published / 24 Aug, 2013
+            </div>
+          </li>
+          <li>
+            <a href="">Panel discussion on "Python in education"</a>
+            <div class="published">
+              Published / 24 Aug, 2013
+            </div>
+          </li>
+          <li>
+            <a href="">Panel Disscus "Python in education"</a>
+            <div class="published">
+              Published / 24 Aug, 2013
+            </div>
+          </li>
+          <li>
+            <a href="">Panel discussion on "Python in education"</a>
+            <div class="published">
+              Published / 24 Aug, 2013
+            </div>
+          </li>
+        </ul>
+      </div> -->
+      <div class="clr"></div>
+    </div>
+  </section>

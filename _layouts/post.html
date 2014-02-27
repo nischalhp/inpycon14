@@ -1,0 +1,42 @@
+---
+layout: page
+---
+
+<section class="page-heading blog">
+    <div class="container">
+      <a href="/blog/"><h1>Blog</h1></a>
+    </div>
+  </section>
+
+  <section class="page-blog">
+    <div class="container">
+      <div class="column-left">
+        <article class="post">
+          <h2><a href="{{ page.url }}"> {{ page.title }}</a></h2>
+          <div class="published">
+            Published / {{ page.date | date_to_string }}
+          </div>
+          <div class="border-line blue"></div>
+          <div class="text">
+            {{ content }}
+          </div>
+          <!-- <a href="" class="comments">25 Comments</a> -->
+        </article>
+      </div>
+      <div class="column-right">
+        <h2>Recent Posts</h2>
+        <div class="border-line blue"></div>
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              <div class="published">
+                Published / {{ post.date | date_to_string }}
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </section>
