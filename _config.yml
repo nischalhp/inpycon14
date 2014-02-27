@@ -2,4 +2,4 @@ name: PyCon India 2014
 static_path: "/static"
 markdown: redcarpet
 pygments: true
-exclude: [Rakefile]
+exclude: [Rakefile,README]
