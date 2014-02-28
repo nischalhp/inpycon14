@@ -24,4 +24,5 @@ How to write blog posts
 
  - On console it'll say that it has created a file inside `_posts` directory
  - Open the same file, write your blog post
+ - Make sure you're running `jekyll serve -w` and watching for the changes and testing it on your browser before pushing
  - add, commit, push and send pull request
