@@ -499,7 +499,7 @@ a.btn-boxy {
     .main-header .container .logo {
       display: block;
       float: left;
-      width: 156px;
+      width: 160px;
       height: 60px;
       vertical-align: baseline;
       zoom: 1;
@@ -786,7 +786,7 @@ a.btn-boxy {
         -o-background-size: 299px 287px;
         background-size: 299px 287px; } }
   .main-header-home .logo {
-    width: 639px;
+    width: 645px;
     height: 168px;
     text-indent: 100%;
     overflow: hidden;
