@@ -40,7 +40,7 @@ task :post do
     post.puts 'description: ""'
     post.puts "categories: "
     post.puts "tags: []"
-    post.puts "permalink: /blog/#{slug}/"
+    post.puts "permalink: /2014/blog/#{slug}/"
     post.puts "---"
     post.puts "Body here"
   end
