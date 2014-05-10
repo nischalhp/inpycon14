@@ -212,7 +212,7 @@ title: Home
         <div class="blog-wrapper">
           {% for post in site.posts %}
             <div class="post">
-              <div class="title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+              <div class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
               <div class="date">Published / {{ post.date | date_to_string }}</div>
               <div class="border-line short"></div>
               <div class="text">
