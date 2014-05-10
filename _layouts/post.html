@@ -4,7 +4,7 @@ layout: page
 
 <section class="page-heading blog">
     <div class="container">
-      <a href="{{ site.base_url }}/blog/"><h1>Blog</h1></a>
+      <a href="{{ site.baseurl }}/blog/"><h1>Blog</h1></a>
     </div>
   </section>
 
@@ -12,7 +12,7 @@ layout: page
     <div class="container">
       <div class="column-left">
         <article class="post">
-          <h2><a href="{{ page.url }}"> {{ page.title }}</a></h2>
+          <h2><a href="{{ site.baseurl }}{{ page.url }}"> {{ page.title }}</a></h2>
           <div class="published">
             Published / {{ page.date | date_to_string }}
           </div>
@@ -29,7 +29,7 @@ layout: page
         <ul>
           {% for post in site.posts %}
             <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
               <div class="published">
                 Published / {{ post.date | date_to_string }}
               </div>

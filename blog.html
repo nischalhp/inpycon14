@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Blog Posts"
-permalink: /2014/blog/
+permalink: /blog/
 ---
 
 <section class="page-heading blog">
@@ -15,7 +15,7 @@ permalink: /2014/blog/
       <div class="column-left">
       {% for post in site.posts %}
         <article class="post">
-          <h2><a href="{{ post.url }}"> {{ post.title }}</a></h2>
+          <h2><a href="{{ site.baseurl }}{{ post.url }}"> {{ post.title }}</a></h2>
           <div class="published">
             Published / {{ post.date | date_to_string }}
           </div>

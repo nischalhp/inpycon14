@@ -5,7 +5,7 @@ date: 2014-02-28 03:23:04
 description: ""
 categories:
 tags: []
-permalink: /2014/blog/hello-world/
+permalink: /blog/hello-world/
 ---
 This is the first blog post. We're still cofiguring things. But for now, this would suffice.
 
