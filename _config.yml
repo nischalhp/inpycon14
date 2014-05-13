@@ -1,4 +1,7 @@
 name: PyCon India 2014
+description: The premier conference in India on using and developing the Python programming language
+url: http://in.pycon.org
+
 static_path: "/2014/static"
 baseurl: "/2014"
 markdown: redcarpet
