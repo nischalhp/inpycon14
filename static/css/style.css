@@ -512,10 +512,10 @@ a.btn-boxy {
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
         .main-header .container .logo {
           background-image: url("../images/logo_small@2x.png");
-          -webkit-background-size: 156px 43px;
-          -moz-background-size: 156px 43px;
-          -o-background-size: 156px 43px;
-          background-size: 156px 43px; } }
+          -webkit-background-size: 158px 39px;
+          -moz-background-size: 158px 39px;
+          -o-background-size: 158px 39px;
+          background-size: 158px 39px; } }
       .main-header .container .logo h1 {
         *display: none; }
     .main-header .container .mobile_icon {
@@ -613,7 +613,7 @@ a.btn-boxy {
     .main-header .container .logo {
       background-position: left center;
       width: 118px;
-      background-image: url("../images/pycon_mobie_logo.png"); }
+      background-image: url("../images/pycon_mobile_logo.png"); }
     .main-header .container a.btn-boxy.buy-tickets {
       float: right;
       margin-top: 18px;
@@ -626,7 +626,7 @@ a.btn-boxy {
       box-shadow: 0px 0px 0px 0 #019882; } }
     @media only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (-moz-min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) and (-moz-min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (max-width: 600px) and (min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) and (min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (min-resolution: 192dpi), only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) and (min-resolution: 192dpi), only screen and (max-width: 600px) and (min-resolution: 2dppx), only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) and (min-resolution: 2dppx) {
       .main-header .container .logo {
-        background-image: url("../images/pycon_mobie_logo@2x.png");
+        background-image: url("../images/pycon_mobile_logo@2x.png");
         -webkit-background-size: 118px 28px;
         -moz-background-size: 118px 28px;
         -o-background-size: 118px 28px;
@@ -786,8 +786,8 @@ a.btn-boxy {
         -o-background-size: 299px 287px;
         background-size: 299px 287px; } }
   .main-header-home .logo {
-    width: 645px;
-    height: 168px;
+    width: 643px;
+    height: 155px;
     text-indent: 100%;
     overflow: hidden;
     white-space: nowrap;
@@ -834,7 +834,7 @@ a.btn-boxy {
       padding-right: 5%; }
     .main-header-home .logo {
       width: 570px;
-      height: 150px;
+      height: 137px;
       background-size: 100% 100%; }
     .main-header-home .desc {
       width: 65%;
@@ -844,7 +844,7 @@ a.btn-boxy {
       background-size: 250px auto; }
     .main-header-home .logo {
       width: 500px;
-      height: 130px;
+      height: 120px;
       background-size: 100% 100%; } }
   @media screen and (max-width: 600px), screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) {
     .main-header-home .bg-trianlge {
@@ -854,8 +854,8 @@ a.btn-boxy {
       padding: 20px 5%; }
     .main-header-home .logo {
       margin-bottom: 20px;
-      width: 250px;
-      height: 66px;
+      width: 316px;
+      height: 78px;
       background-size: 100% 100%; }
     .main-header-home .desc {
       width: auto;
