@@ -4,7 +4,7 @@ PyCon India 2014 Website
 How to contribute
 ---
 
- - Install [Jekyll](http://jekyllrb.com/docs/installation/)
+ - Install [Jekyll](http://jekyllrb.com/docs/installation/). I'm using rubygems v2.1.11 and jekyll v1.4.3. Check the version after you install it.
  - fork this repo and clone the forked repo
  - run this command -
 
