@@ -21,12 +21,16 @@ But before you register to volunteer, there are few things you should be aware o
 
  - Volunteers are the most important part of the event. Without the volunteers, the event cannot happen. So even if you are attending PyCon for the first time, we encourage you to volunteer with whatever you can. If you don't want to miss any sessions, then volunteer for smaller tasks.
 
- - If you're still interested in volunteering, put your name and contact details in [this form][2] and subscribe to [the mailing list][3]. Please don't subscribe to the daily digest. Digests are always behind the time.
+ - If you're still interested in volunteering, put your name and contact details in [this form][2] and subscribe to [the mailing list][3]. **Please don't subscribe to the daily digest.** Digests are always behind the time and meant for those who just wants to stay updated and not participate in conversations. If you're already subscribed to the mailing list, [go ahead, login][3] and change your subscription type. Also, **please** don't reply to a digest.
 
  - Once your name is on the form, keep an eye on the mailing list. Threads will be created on specific tasks asking for volunteers. If you think you can do the task and have enough time for it, raise your hand. That's it.
+
+ - Also, if you have any question, we'd really appreciate if you go through the [mailing list archives][5] first, and see if it's already answered. If not, you can talk to us at the IRC channel [#pyconindia][4] on freenode.net or send a mail to the mailing list.
 
 Hope to see you at the event. Happy volunteering. :)
 
  [1]: http://pyconindia2014.doattend.com/
  [2]: https://docs.google.com/forms/d/1-uebsDUAyAmaMnmSrCJgILnmhqxrmWBrrIZG9Aj073E/viewform
  [3]: https://mail.python.org/mailman/listinfo/inpycon
+ [4]: http://webchat.freenode.net/?channels=%23pyconindia
+ [5]: https://mail.python.org/pipermail/inpycon/
