@@ -1,4 +1,128 @@
 $(document).ready(function() {
+    var proposalChart = new CanvasJS.Chart("proposalType", {
+
+        title: {
+            text: "Proposals based on type"
+        },
+        data: [
+            {
+                indexLabelFontSize: 16,
+                toolTipContent: "{indexLabel} <strong>{y} <strong>",
+                type: "column",
+                dataPoints: [
+                    { indexLabel: "Core Python", y: 25},
+                    { indexLabel: "Embedded", y: 8},
+                    { indexLabel: "Infrastructure", y: 12},
+                    { indexLabel: "Scientific Computing", y: 19},
+                    { indexLabel: "Tools", y: 27},
+                    { indexLabel: "Web ", y: 27},
+                    { indexLabel: "Workshops ", y: 24},
+                ]
+            }
+        ]
+    });
+
+    proposalChart.render();
+
+    var levelChart = new CanvasJS.Chart("levelType", {
+        title: {
+            text: "Proposals based on audience level"
+        },
+        data: [
+            {
+                type: "doughnut",
+                startAngle: 10,
+                toolTipContent: "{name} <strong>{y} %<strong>",
+                showInLegend: true,
+                indexLabel: "{name} {y}%",
+                dataPoints: [
+                    { name: "Beginner", y: 50},
+                    { name: "Intermediate", y: 91},
+                    { name: "Advanced", y: 2},
+                ]
+            }
+        ]
+    });
+
+    levelChart.render();
+
+    var timeLineChart = new CanvasJS.Chart("proposalTimeLine", {
+        title: {
+            text: "Proposals based on submitted date",
+            margin: 15
+        },
+        data: [
+            {
+                type: "line",
+                axisX: {
+                    valueFormatString: "DD/MMM"
+                 },
+                dataPoints: [
+                    {x: new Date(2014,01,10), y: 2},
+                    {x: new Date(2014,01,11), y: 1},
+                    {y: 2, x:new Date(2014,01,12)},
+                    {y: 1, x:new Date(2014,01,13)},
+                    {y: 1, x:new Date(2014,01,14)},
+                    {y: 2, x:new Date(2014,01,16)},
+                    {y: 2, x:new Date(2014,01,18)},
+                    {y: 1, x:new Date(2014,01,28)},
+                    {y: 1, x:new Date(2014,02,08)},
+                    {y: 1, x:new Date(2014,02,11)},
+                    {y: 1, x:new Date(2014,02,22)},
+                    {y: 1, x:new Date(2014,02,24)},
+                    {y: 2, x:new Date(2014,02,31)},
+                    {y: 2, x:new Date(2014,03,01)},
+                    {y: 1, x:new Date(2014,03,02)},
+                    {y: 1, x:new Date(2014,03,03)},
+                    {y: 1, x:new Date(2014,03,04)},
+                    {y: 1, x:new Date(2014,03,06)},
+                    {y: 2, x:new Date(2014,03,07)},
+                    {y: 3, x:new Date(2014,03,09)},
+                    {y: 2, x:new Date(2014,03,14)},
+                    {y: 4, x:new Date(2014,03,15)},
+                    {y: 1, x:new Date(2014,03,16)},
+                    {y: 1, x:new Date(2014,03,17)},
+                    {y: 1, x:new Date(2014,03,18)},
+                    {y: 1, x:new Date(2014,03,21)},
+                    {y: 1, x:new Date(2014,03,22)},
+                    {y: 1, x:new Date(2014,03,23)},
+                    {y: 1, x:new Date(2014,03,27)},
+                    {y: 1, x:new Date(2014,03,28)},
+                    {y: 1, x:new Date(2014,03,30)},
+                    {y: 3, x:new Date(2014,04,01)},
+                    {y: 1, x:new Date(2014,04,02)},
+                    {y: 1, x:new Date(2014,04,04)},
+                    {y: 2, x:new Date(2014,04,05)},
+                    {y: 1, x:new Date(2014,04,06)},
+                    {y: 1, x:new Date(2014,04,08)},
+                    {y: 2, x:new Date(2014,04,09)},
+                    {y: 3, x:new Date(2014,04,10)},
+                    {y: 1, x:new Date(2014,04,11)},
+                    {y: 2, x:new Date(2014,04,12)},
+                    {y: 2, x:new Date(2014,04,13)},
+                    {y: 2, x:new Date(2014,04,14)},
+                    {y: 4, x:new Date(2014,04,15)},
+                    {y: 2, x:new Date(2014,04,16)},
+                    {y: 3, x:new Date(2014,04,17)},
+                    {y: 1, x:new Date(2014,04,18)},
+                    {y: 2, x:new Date(2014,04,19)},
+                    {y: 3, x:new Date(2014,04,20)},
+                    {y: 6, x:new Date(2014,04,21)},
+                    {y: 1, x:new Date(2014,04,22)},
+                    {y: 4, x:new Date(2014,04,23)},
+                    {y: 2, x:new Date(2014,04,24)},
+                    {y: 2, x:new Date(2014,04,25)},
+                    {y: 2, x:new Date(2014,04,26)},
+                    {y: 3, x:new Date(2014,04,27)},
+                    {y: 5, x:new Date(2014,04,28)},
+                    {y: 8, x:new Date(2014,04,29)},
+                    {y: 30, x:new Date(2014,04,30)}
+                ]
+            }
+        ]
+    });
+
+    timeLineChart.render()
 
     $(window).resize(function() {
         resize_elements();
