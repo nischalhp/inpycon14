@@ -23,7 +23,7 @@ The review process will be done in 2 phases:
 
 -1 - The proposal is not upto the mark.
 
-### A few criteria for evaluation ###
+### Points taken into consideration by reviewers for each evaluation ###
 
 * Will I attend the talk if it is selected?
 
