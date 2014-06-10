@@ -34,7 +34,7 @@ $(document).ready(function() {
                 startAngle: 10,
                 toolTipContent: "{name} <strong>{y} %<strong>",
                 showInLegend: true,
-                indexLabel: "{name} {y}%",
+                indexLabel: "{name} {y}",
                 dataPoints: [
                     { name: "Beginner", y: 50},
                     { name: "Intermediate", y: 91},
