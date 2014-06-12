@@ -566,7 +566,7 @@ a.btn-boxy {
             display: block;
             height: 12px;
             margin: 0;
-            font-size: 12px;
+            font-size: 9px;
             line-height: 12px;
             font-weight: bold;
             text-transform: uppercase;
@@ -651,7 +651,7 @@ a.btn-boxy {
       width: 100%;
       height: inherit; }
       .home-sticky-nav .top-navigation ul li {
-        width: 16%;
+        width: 14%;
         margin: 0;
         float: left;
         height: inherit; }
