@@ -561,12 +561,12 @@ a.btn-boxy {
           *display: inline;
           *vertical-align: auto;
           float: left;
-          margin-right: 40px; }
+          margin-right: 25px; }
           .main-header .container .top-navigation ul li a {
             display: block;
             height: 12px;
             margin: 0;
-            font-size: 9px;
+            font-size: 12px;
             line-height: 12px;
             font-weight: bold;
             text-transform: uppercase;
