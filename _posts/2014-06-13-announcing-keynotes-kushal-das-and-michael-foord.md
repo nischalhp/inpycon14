@@ -28,7 +28,7 @@ He is currently working as Community Gardener at Eucalyptus Systems.
 
 ![Michael Foord]({{ site.baseurl }}/static/images/speaker_michael_foord_600px.jpg)
 
-Michael Foord is better known as @voidspace in the Python community. He maintains the unittest module in the standard library as well as other widely used third party libraries such as [mock](http://www.voidspace.org.uk/python/mock/). He is a core committer to the Python project.
+Michael Foord is better known as @voidspace in the Python community. He maintains the unittest module in the standard library as well as the [mock](https://docs.python.org/3/library/unittest.mock.html) library. Mock was a widely used third party library before being introduced as a standard library in Python 3.3. He is a core committer to the Python project.
 
 He was involved with the [IronPython](http://ironpython.net/) project and is the author of the book ["Iron Python in action"](http://www.ironpythoninaction.com/).
 At Canonical he works on Juju, a tool to automate cloud infrastructure.
