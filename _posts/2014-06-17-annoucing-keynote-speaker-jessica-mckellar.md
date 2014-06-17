@@ -18,3 +18,6 @@ Outreach Chair](https://twitter.com/jessicamckellar/status/413009020522221568), 
 including OpenHatch and the Twisted event-driven networking engine. For
 her outreach efforts in the Python community, she was awarded the
 O'Reilly Open Source Award in 2013.
+
+We sure are excited and can't wait to have them here with us. We hope
+you are too. So what are you waiting for? [Grab your tickets](http://pyconindia2014.doattend.com/) and [vote for the talks](http://in.pycon.org/funnel/2014/) that you want to hear!
