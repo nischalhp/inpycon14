@@ -2662,6 +2662,15 @@ a.btn-boxy {
     @media screen and (max-width: 959px), screen and (max-width: 959px) and (-webkit-min-device-pixel-ratio: 1.3) {
       .page-sponsors.section-sponsors h2 {
         font-size: 28px; } }
+    .page-sponsors.section-sponsors h2#sponsors_platinum {
+      background-image: url("../images/platinum_icon.png"); }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+        .page-sponsors.section-sponsors h2#sponsors_platinum {
+          background-image: url("../images/platinum_icon@2x.png");
+          -webkit-background-size: 52px 60px;
+          -moz-background-size: 52px 60px;
+          -o-background-size: 52px 60px;
+          background-size: 52px 60px; } }
     .page-sponsors.section-sponsors h2#sponsors_gold {
       background-image: url("../images/gold_icon.png"); }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
