@@ -9,7 +9,7 @@ permalink: /blog/annoucing-keynote-speaker-jessica-mckellar/
 ---
 Few days back we announced two keynote speakers [Kushal Das](http://kushaldas.in/aboutme.html) and [Michael Foord](http://www.voidspace.org.uk/). Today we are happy to announce one more Keynote speaker [Jessica McKellar](http://jesstess.com).
 
-![Jessica McKellar]({{ site.baseurl }}/static/images/speaker_jessica_600.png)
+![Jessica McKellar]({{ site.baseurl }}/static/images/speaker_jessica_600px.jpg)
 
 Jessica McKellar is an entrepreneur, software engineer, and open
 source developer from San Francisco, California, USA. She is a Director
