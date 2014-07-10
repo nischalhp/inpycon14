@@ -13,4 +13,4 @@ While the logistics team is running around getting all the variables in place, t
 
 We had earlier announced that the accepted proposals would be announced on June 30th, 2014. We are extending the proposal acceptance announcement to July 15th, 2014.
 
-So bare with us for a little while more and wait for the big announcement soon!
+So bear with us for a little while more and wait for the big announcement soon!
