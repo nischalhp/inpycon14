@@ -821,6 +821,7 @@ a.btn-boxy {
         font-size: 24px;
         line-height: 30px; }
   .main-header-home a.btn-boxy.buy-tickets {
+    margin-right: 20px;
     background: #fff;
     border: 1px solid #00A990;
     color: #00A990;
