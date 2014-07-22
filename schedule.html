@@ -38,73 +38,26 @@ title: Schedule
 						<div class="clr"></div>
 					</div>
 
-					<div class="block-time">
-						<h3>09:30<span>am</span></h3>
+          {% for workshop in site.workshops %}
+            <div class="block-time">
+              <h3>{{ workshop.timeslot }}</h3>
 
-						<div class="events-list">
-							<div class="event-item">
-								<div class="audi">Audi 1</div>
-								<div class="details">
-									<div class="title"><a href="http://in.pycon.org/funnel/2014/">Your Awesome Session Name. Propose Now!</a></div>
-									<div class="speaker">This could be your name!</div>
-								</div>
-								<div class="clr"></div>
-							</div>
+              <div class="events-list">
+                {% for proposal in workshop.proposals %}
+                <div class="event-item">
+                  <div class="audi">Audi {{ proposal.audi }}</div>
+                  <div class="details">
+                    <div class="title"><a href="{{ proposal.url }}">{{ proposal.title }}</a></div>
+                    <div class="speaker">{{ proposal.speaker }}</div>
+                  </div>
+                  <div class="clr"></div>
+                </div>
+                {% endfor %}
+              </div>
+              <div class="clr"></div>
+            </div>
+          {% endfor %}
 
-							<div class="event-item">
-								<div class="audi">Audi 2</div>
-								<div class="details">
-									<div class="title"><a href="http://in.pycon.org/funnel/2014/">Your Friend's Session Name. Ask them to propose now!</a></div>
-									<div class="speaker">This could be your friend!</div>
-								</div>
-								<div class="clr"></div>
-							</div>
-
-							<!-- <div class="event-item">
-								<div class="audi">Audi 1</div>
-								<div class="details">
-									<div class="title"><a href="">Chugging Flask: Gyaan from building REST APIs for an Android App</a></div>
-									<div class="speaker">Kiran Jonnalagadda</div>
-								</div>
-								<div class="clr"></div>
-							</div> -->
-						</div>
-						<div class="clr"></div>
-					</div>
-
-					<!-- <div class="block-time">
-						<h3>08:30<span>am</span></h3>
-
-						<div class="events-list">
-							<div class="event-item">
-								<div class="audi">Audi 1</div>
-								<div class="details">
-									<div class="title"><a href="">Chugging Flask: Gyaan from building REST APIs for an Android App</a></div>
-									<div class="speaker">Kiran Jonnalagadda</div>
-								</div>
-								<div class="clr"></div>
-							</div>
-
-							<div class="event-item">
-								<div class="audi">Audi 1</div>
-								<div class="details">
-									<div class="title"><a href="">Chugging Flask: Gyaan from building REST APIs for an Android App</a></div>
-									<div class="speaker">Kiran Jonnalagadda</div>
-								</div>
-								<div class="clr"></div>
-							</div>
-
-							<div class="event-item">
-								<div class="audi">Audi 1</div>
-								<div class="details">
-									<div class="title"><a href="">Chugging Flask: Gyaan from building REST APIs for an Android App</a></div>
-									<div class="speaker">Kiran Jonnalagadda</div>
-								</div>
-								<div class="clr"></div>
-							</div>
-						</div>
-						<div class="clr"></div>
-					</div> -->
 				</div>
 			</div>
 		</div>
